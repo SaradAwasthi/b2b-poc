@@ -1,0 +1,34 @@
+{
+  "tasticType": "commercetools/ui/checkout",
+  "name": "commercetools UI checkout",
+  "icon": "add_shopping_cart",
+  "category": "Checkout",
+  "schema": [
+    {
+      "name": "Content",
+      "fields": [
+        {
+          "label": "Login link",
+          "field": "loginLink",
+          "type": "reference",
+          "required": true
+        },
+        {
+          "label": "Terms & conditions link",
+          "field": "termsLink",
+          "type": "reference"
+        },
+        {
+          "label": "Cancellation policy link",
+          "field": "cancellationLink",
+          "type": "reference"
+        },
+        {
+          "label": "Privacy policy link",
+          "field": "privacyLink",
+          "type": "reference"
+        }
+      ]
+    }
+  ]
+}
